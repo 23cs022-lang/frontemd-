@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080/api", // your Spring Boot backend
+  baseURL: "https://opd-project-fsd-backend.onrender.com/api", // your live backend
 });
 
 // -------- Doctor APIs --------
