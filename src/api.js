@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: `${import.meta.env.VITE_BACKEND_URL}/api`, // your live backend
+  baseURL: `${process.env.REACT_BACKEND_URL}/api`, // your live backend
 });
 
 // -------- Doctor APIs --------
