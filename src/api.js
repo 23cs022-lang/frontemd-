@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: `https://backend-f5uk.onrender.com`, // your live backend
+  baseURL: `https://backend-f5uk.onrender.com/api`, // your live backend
 });
 
 // -------- Doctor APIs --------
