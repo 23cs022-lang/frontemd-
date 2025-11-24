@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://opd-project-fsd-backend.onrender.com/api", // your live backend
+  baseURL: `${import.meta.env.VITE_BACKEND_URL}/api`, // your live backend
 });
 
 // -------- Doctor APIs --------
