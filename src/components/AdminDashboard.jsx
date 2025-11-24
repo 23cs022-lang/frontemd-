@@ -132,7 +132,7 @@ export default function AdminDashboard({ children }) {
     specialization: "",
   });
 
-  const backendUrl = "http://localhost:8080/api";
+  const backendUrl = "https://backend-f5uk.onrender.com/api";
 
   // ---------- Fetch Doctors & Patients ----------
   useEffect(() => {

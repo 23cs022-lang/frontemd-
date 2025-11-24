@@ -45,7 +45,7 @@ export default function DoctorDashboard({
   doctors,
 }) {
   const [doctorQueue, setDoctorQueue] = useState([]);
-  const backendUrl = "http://localhost:8080/api";
+  const backendUrl = "https://backend-f5uk.onrender.com/api";
 
   // ---------- Load Doctor Queue ----------
   useEffect(() => {
